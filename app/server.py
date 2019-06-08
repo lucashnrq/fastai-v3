@@ -1,4 +1,4 @@
-https://drive.google.com/uc?export=download&id=1kzZ0hIn4N7FelYajnrP5Bfiy-SeGqKn6from starlette.applications import Starlette
+from starlette.applications import Starlette
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
