@@ -1,4 +1,4 @@
-from starlette.applications import Starlette
+https://drive.google.com/uc?export=download&id=1kzZ0hIn4N7FelYajnrP5Bfiy-SeGqKn6from starlette.applications import Starlette
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
@@ -9,10 +9,28 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=13Nxml5y0VVrn7J8GjTuxZDO1WwR2YslX'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1kzZ0hIn4N7FelYajnrP5Bfiy-SeGqKn6'
 export_file_name = 'export.pkl'
 
-classes = ['macbook', 'notmacbook']
+classes = ['Caiçaca - Bothrops moojeni',
+ 'Cascavel -  Crotalus durissus collilineatus',
+ 'Cascavel - Crotalus durissus terrificus',
+ 'Chironius exoletus',
+ 'Clelia clelia',
+ 'Cobra coral – Micrurus frontalis',
+ 'Erythrolamprus aesculapii',
+ 'Helicops modestus',
+ 'Jararaca pintada - Bothrops neuwiedi',
+ 'Jibóia - Boa constrictor amarali',
+ 'Liophis miliaris',
+ 'Oxyrhopus guibei',
+ 'Philodryas nattereri',
+ 'Philodryas olfersii',
+ 'Philodryas patagoniensis',
+ 'Salamanta epicrates cenchria',
+ 'Spilotes pullatus',
+ 'Waglerophis merremii',
+ 'crobas']
 path = Path(__file__).parent
 
 app = Starlette()
